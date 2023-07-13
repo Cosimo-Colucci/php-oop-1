@@ -10,4 +10,7 @@
 // Definito classe Movie
 class Movie {
 
+// Dichiarato delle variabili d'istanza
+    public $title;
+    public $description;
 }
