@@ -13,4 +13,10 @@ class Movie {
 // Dichiarato delle variabili d'istanza
     public $title;
     public $description;
+    public $year;
+
+// Definito un costruttore all'interno della classe
+    function __construct($year){
+        $this->$year = $year
+    }
 }
