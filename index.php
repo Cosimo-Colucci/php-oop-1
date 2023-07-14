@@ -16,7 +16,15 @@ class Movie {
     public $year;
 
 // Definito un costruttore all'interno della classe
-    function __construct($year){
-        $this->$year = $year
+    function __construct($title, $description, $year){
+        $this->$title = $title;
+        $this->$description = $description;
+        $this->$year = $year;
+    }
+
+// Definito metodo all'interno della classe
+    public function getTitle(){
+        return $this->$title;
     }
 }
+
