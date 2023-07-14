@@ -28,3 +28,9 @@ class Movie {
     }
 }
 
+//  Istanziati due oggetti ‘Movie’ e stampati a schermo i valori delle relative proprietà
+$first = new Movie('Fast and Furious', 'Per indagare su una serie di furti, il poliziotto Brian O\'Connor diventa un infiltrato sotto copertura nel mondo delle corse clandestine di Los Angeles. Mentre cerca di guadagnarsi la fiducia del capo, l\'uomo rischia di essere smascherato.', 2001);
+$second = new Movie('2 Fast 2 Furious', 'L\'agente O\'Conner, privato del suo distintivo, viene reclutato dall\'FBI per infiltrarsi in un giro clandestino di corsa automobilistiche a Miami e smantellare un\'organizzazione criminale.', 2003);
+
+var_dump ($first);
+var_dump ($second);
